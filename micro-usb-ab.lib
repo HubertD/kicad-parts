@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# micro-usb-ab
+#
+DEF micro-usb-ab X 0 40 Y Y 1 F N
+F0 "X" -50 500 60 H V C CNN
+F1 "micro-usb-ab" -150 0 60 V V C CNN
+F2 "" -100 350 60 H V C CNN
+F3 "" -100 350 60 H V C CNN
+DRAW
+S 150 450 -200 -450 0 1 0 N
+X +5V ~ 350 350 200 L 50 50 1 1 B
+X D+ ~ 350 150 200 L 50 50 1 1 B
+X D- ~ 350 50 200 L 50 50 1 1 B
+X GND ~ 350 -250 200 L 50 50 1 1 B
+X ID ~ 350 -150 200 L 50 50 1 1 B
+X S ~ 350 -350 200 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
